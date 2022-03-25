@@ -1,0 +1,40 @@
+.logo{
+    height: 50px;
+ 
+}
+.header{
+    text-align: center;
+}
+.header nav{
+    background-color: #000000;
+   line-height: 40px;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.header nav a:hover{
+    background-color:
+rgb(211, 211, 211);
+
+}
+.search-container{
+    background-color: #222;
+    padding: 20px;
+}
+.search-container input{
+    width: 80%;
+    line-height: 22px;
+    font-size: 17px;
+}
+.search-container span{
+   font-size: 25px;
+    color: white;
+    margin-left: 10px;
+   
+}
