@@ -1,0 +1,34 @@
+.product{
+    display: flex;
+  border-bottom: 1px solid lightgrey;
+    margin-right: 5px;
+}
+.product img{
+    margin-right: 10px;
+   
+}
+.product-name{
+    text-align: left;
+    color: blue;
+    font-weight: 400;
+}
+.btn-style{
+    background-color: #f0c14b;
+    width: 200px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    vertical-align: middle;
+  
+}.product-info{
+    display: flex;
+  align-items: center;
+   
+}
+.features-rating{
+    margin-left: 100px;
+    margin-top: 0;
+   
+}
