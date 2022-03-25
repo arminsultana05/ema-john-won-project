@@ -5,7 +5,14 @@ import './Product.css'
 
 const Product = (props) => {
     const {handleAddToCart,product}=props;
-    const {name,img,seller,price,stock,}=product;
+    const {name,img,seller,price,stock,features}=product;
+    let description;
+    let value;
+    for (const feature of features){
+        console.log(feature);
+         description = feature.description;
+         value=feature.value
+    }
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -23,10 +30,10 @@ const Product = (props) => {
                    <small> <FcRating></FcRating> <FcRating></FcRating> <FcRating></FcRating> <FcRating></FcRating> <FcRating></FcRating></small>
                     <h4>Features:</h4>
                    <ul>
-                       <li>1</li>
-                       <li>2</li>
-                       <li>3</li>
-                       <li>4</li>
+                       <li>Display Type: {description} </li>
+                       <li>Display size: <strong>{value}</strong></li>
+                       <li>Operating System:chrome</li>
+                       <li>Hard Disk size:16GB</li>
                    </ul>
 
                 </div>
