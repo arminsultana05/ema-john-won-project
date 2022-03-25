@@ -21,24 +21,24 @@ const Cart = (props) => {
                 <table>
                     <tbody>
                         <tr>
-                            <td>Item Price: ${total.toFixed(2)}</td>
-                            <td></td>
+                            <td>Item Price: </td>
+                            <td>${total.toFixed(2)}</td>
                         </tr>
                         <tr>
-                            <td>Shippin $ Handling: ${shipping.toFixed(2)}</td>
-                            <td></td>
+                            <td>Shippin $ Handling: </td>
+                            <td>${shipping.toFixed(2)}</td>
                         </tr>
                         <tr>
-                            <td>Total befor tax: ${tax.toFixed(2)}</td>
-                            <td></td>
+                            <td>Total befor tax:</td>
+                            <td> ${tax.toFixed(2)}</td>
                         </tr>
                         <tr>
-                            <td>Esimated Tax: ${esimated}</td>
-                            <td></td>
+                            <td>Esimated Tax: </td>
+                            <td>${esimated}</td>
                         </tr>
                         <tr className='total-raw'>
-                            <td>Order Total: ${orderTotal.toFixed(2)}</td>
-                            <td></td>
+                            <td>Order Total: </td>
+                            <td>${orderTotal.toFixed(2)}</td>
                         </tr>
                     </tbody>
                 </table>
